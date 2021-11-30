@@ -5,7 +5,7 @@ const Advantages = () => {
     return (
 <>
 <Box align="center" bgColor="#f1f1f1" p={{base:"10", md:"0 10 "}}>
-  <Heading color="#000">What you can get with Altice</Heading>
+  <Heading >What you can get with Altice</Heading>
     <SimpleGrid columns={{base:"1", md:"4"}} spacing={10} maxW="1250px">
       
     <Flex p="5" align="center" direction="column" >

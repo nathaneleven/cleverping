@@ -1,3 +1,14 @@
 *{
     margin: 0
 }
+
+h1, h2{
+    color:#396AB3;
+  }
+  
+  h1::before, h2::before{
+    height: 9px;
+    width: 75px;
+    background-color: #FFBA10;
+    border:#396AB3 solid 5px;
+  }

@@ -5,8 +5,8 @@ import { Image } from '@chakra-ui/image'
 const LogoHeader = () => {
   return (
     <>
-    <Box>
-      <Link href="/"><Image w="200px" src="/altice-logo-png-horizontal.png"/></Link>
+    <Box alignSelf="center">
+      <Link href="/"><Image w="200px"  src="/cleverping-logo.svg"/></Link>
     </Box>
     </>
   )
