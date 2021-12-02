@@ -14,13 +14,6 @@ a {
   box-sizing: border-box;
 }
 
-h1, h2{
+h1{
   color:#396AB3;
-}
-
-h1::before, h2::before{
-  height: 9px;
-  width: 75px;
-  background-color: #FFBA10;
-  border:#396AB3 solid 5px;
 }

@@ -7,8 +7,8 @@ const EmailForm = () => {
   return (
     <>
             <Flex align="center" >
-                <Input w="80%" focusBorderColor="blue.500" colorScheme="black" borderRadius="sm" placeholder="Enter Zip Code" size="lg" variant="filled" mr="3" />
-                <Button colorScheme="orange" bgColor="#FF723B" px="40px" size="lg" variant="solid" borderRadius="sm">Check Availability</Button>
+                <Input w="80%" focusBorderColor="blue.500" colorScheme="black" borderRadius="md" placeholder="Enter Zip Code" size="lg" variant="filled" mr="3" />
+                <Button colorScheme="orange" bgColor="#FF723B" px="40px" size="lg" variant="solid" borderRadius="md">Check Availability</Button>
             </Flex>
     </>
   )}

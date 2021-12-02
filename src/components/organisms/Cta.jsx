@@ -6,7 +6,7 @@ const Cta = () => {
     return (
 <>
 
-<Box p="8" bgColor="#396AB3" color="#396AB3" align="center"  >
+<Box px="10" bgColor="#396AB3" color="#396AB3" align="center"  >
         <Flex borderRadius="xl" maxW="1272px" bgColor="#fff" p="25px" direction={{base: "column", md: "row"}} >
             <Box pb={{base:5, md:0}}>
             <Text align={{base:"center", md:"left"}} fontWeight="700" fontSize="2xl" >

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Flex, Box, Heading, Text, AspectRatio, Stack } from '@chakra-ui/layout'
-import { CheckIcon } from '@chakra-ui/icons'
+import { Flex, Box, Heading, Text, Stack } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 
 const Hero = () => {
     return (
         <>
-        <Stack bgImage="/hero-divider.svg" bgPosition="bottom" bgRepeat="no-repeat" bgSize={{base: "100% 100px", xl: "100% 300px"}} w="100%" py="4em" justify="center" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row"]}>
+        <Stack mb="-1px" bgImage="/hero-divider.svg" bgPosition="bottom" bgRepeat="no-repeat" bgSize={{base: "100% 100px", xl: "100% 300px"}} w="100%" py="4em" justify="center" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row"]}>
         {/*Retirei um flex e adicionei um box para facilitar o alinhamento*/}
         <Box pb={["25px","25px","25px","25px","0"]} w={["100%","100%","100%","100%","50%"]} m="auto">
         {/*a width vai ser a responsável pelo alinamento da div de texto*/}
