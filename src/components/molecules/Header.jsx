@@ -8,11 +8,11 @@ const  Header = () => {
 return (
 <>
     <Box p="17px" border="1" bgColor="#fff" boxShadow="lg" align="center">
-        <Flex maxW="1272px" justify="center">
-        <LogoHeader />
-        <Spacer />
+        <Flex maxW="1272px" justify="center" display={{base:"inline-block", md:"flex"}}>
+        <LogoHeader py={{base:"100px", md:"0"}} />
+        <Spacer py={{base:"10px", md:"0"}} />
         <EmailForm/>
-        <Spacer />
+        <Spacer py={{base:"10px", md:"0"}} />
         <TelephoneHeader />
         </Flex>
     </Box>

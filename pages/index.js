@@ -8,11 +8,13 @@ import ServiceType from '../src/components/organisms/ServiceType'
 import ByState from '../src/components/organisms/ByState'
 import Services from '../src/components/organisms/Services'
 import CtaFooter from '../src/components/organisms/CtaFooter'
+import LeftMenu from '../src/components/organisms/LeftMenu'
 
 export default function Home() {
   return (
     <div>
       <Header/>
+      <LeftMenu/>
       <Hero/>
       <Cta/>
       <WhyUseCP/>

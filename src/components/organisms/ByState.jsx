@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Box, Heading, Text, AspectRatio, Stack } from '@chakra-ui/layout'
+import { Flex, Box, Heading, Text} from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 
 const ByState = () => {
