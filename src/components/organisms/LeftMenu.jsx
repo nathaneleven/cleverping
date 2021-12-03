@@ -8,13 +8,13 @@ const LeftMenu = () => {
     return (
 <>
 
-<Box position="fixed" p="3" color="#396AB3" align="center"  >
+<Box position={{base:"relative" ,md:"fixed"}} fontSize={{base:"3xl" ,md:"xl"}} p="3" color="#396AB3" align="center"  >
 <Menu bgColor="none">
-  <Flex alignItems="center">
+  <Flex align="center" justify={{base:"center" ,md:"left"}}>
   <MenuButton p="20px" w="80px" h="80px" rounded="full" as={Button}>
     <Image src="/services-tools-icon.svg" />
   </MenuButton>
-  <Text color="#a5a5a5" fontWeight="700" pl="10px" align="left">Services<br/>& Tools</Text>
+  <Text color="#a5a5a5" fontSize="21px" fontWeight="700" pl="10px" align="left">Services<br/>& Tools</Text>
   </Flex>
   <MenuList bg="rgba(255, 255, 255, 0.5)" p="10px" rounded="40px" backdropFilter="blur(10px)" blur="10px" border="none">
     <MenuItem rounded="full"><Flex h="41px" w="41px" justifyContent="center" pr="15px"><Image alignSelf="center" maxH="33px" src="/internet-icon.svg" /></Flex>Internet</MenuItem>

@@ -6,9 +6,9 @@ import { Image } from '@chakra-ui/image'
 const InternetService = () => {
   return (
     <>
-  <Stack maxW="1272px" justify="center" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row"]}>
+  <Stack maxW="1272px" justify="center"  py="25px" flexDirection={["column-reverse","column-reverse","column-reverse","column-reverse","row"]}>
       <Box pb={["25px","25px","25px","25px","0"]} w={["100%","100%","100%","100%","50%"]} m="auto">
-          <Box align="left" p={["4","5","6","7","8"]}  w={["100%","100%","100%","100%","100%"]} m="auto">
+          <Box textAlign={["center","center","center","center","left"]} p={["4","5","6","7","8"]}  w={["100%","100%","100%","100%","100%"]} m="auto">
               <Heading color="#396AB3" as="h3" pb="24px">
               Internet
               </Heading>
