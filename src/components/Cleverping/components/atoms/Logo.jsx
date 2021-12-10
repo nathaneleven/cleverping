@@ -6,7 +6,7 @@ const LogoHeader = () => {
   return (
     <>
     <Box alignSelf="center">
-      <Link href="/"><Image w="200px"  src="/cleverping-logo.svg"/></Link>
+      <Link href="/"><Image w={["120px","120px","120px","120px", "200px"]}  src="/cleverping/cleverping-logo.svg"/></Link>
     </Box>
     </>
   )

@@ -16,12 +16,12 @@ const PhoneService = () => {
               Get a home telephone plan that works for you – whether that is simply telephone or a package with TV, web and the sky is the limit from there.<br/><br/>
               Easily compare landline providers available in your area and the features offered by them. When it comes to home services, CleverPing® always puts quality and security first, so you’ll be choosing between the most reliable companies in the U.S. territory.
               </Text>
-              <Link><Button colorScheme="orange" border="solid 3px #FF723B" color="#FF723B" size="lg" variant="outline" borderRadius="lg" py="30px">See Phone</Button></Link>
+              <Link href="/phone"><Button colorScheme="orange" border="solid 3px #FF723B" color="#FF723B" size="lg" variant="outline" borderRadius="lg" py="30px">See Phone</Button></Link>
           </Box>
       </Box>
 
-      <Flex mt="0 !important" w={["100%","100%","100%","100%","50%"]} justify="center">
-          <Image src="/phone.svg" alt="About Image Altice" />
+      <Flex  w={["90%","90%","90%","90%","50%"]} alignSelf="center" justify="center">
+          <Image src="/cleverping/phone.svg" alt="Image" />
       </Flex>
   </Stack>
     </>

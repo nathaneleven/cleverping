@@ -1,29 +1,25 @@
-import Header from '../src/components/molecules/Header'
-import Footer from '../src/components/molecules/Footer'
-import Hero from '../src/components/organisms/Hero'
-import Cta from '../src/components/organisms/Cta'
-import WhyUseCP from '../src/components/organisms/WhyUseCP'
-import BestProviders from '../src/components/organisms/BestProviders'
-import ServiceType from '../src/components/organisms/ServiceType'
-import ByState from '../src/components/organisms/ByState'
-import Services from '../src/components/organisms/Services'
-import CtaFooter from '../src/components/organisms/CtaFooter'
-import LeftMenu from '../src/components/organisms/LeftMenu'
+import React from "react"
+import BestProvidersCleverping from "../src/components/Cleverping/components/organisms/BestProviders"
+import CtaCleverping from "../src/components/Cleverping/components/organisms/Cta"
+import HeroCleverping from "../src/components/Cleverping/components/organisms/Hero"
+import ServicesCleverping from "../src/components/Cleverping/components/organisms/Services"
+import ServiceTypeCleverping from "../src/components/Cleverping/components/organisms/ServiceType"
+import WhyUseCleverping from "../src/components/Cleverping/components/organisms/WhyUseCP"
+import { ChakraProvider } from "@chakra-ui/react"
+import HeaderCleverping from "../src/components/Cleverping/components/default/Header"
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <div>
-      <Header/>
-      <LeftMenu/>
-      <Hero/>
-      <Cta/>
-      <WhyUseCP/>
-      <ByState/>
-      <BestProviders/>
-      <ServiceType/>
-      <Services/>
-      <CtaFooter/>
-      <Footer/>
-    </div>
+    <ChakraProvider>
+        <HeaderCleverping />
+        <HeroCleverping />
+        <CtaCleverping />
+        <WhyUseCleverping />
+        <BestProvidersCleverping />
+        <ServiceTypeCleverping />
+        <ServicesCleverping />
+    </ChakraProvider>
   )
 }
+
+export default HomePage

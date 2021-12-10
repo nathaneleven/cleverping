@@ -2,18 +2,17 @@ import React from 'react'
 import { Box, SimpleGrid, Heading, Text, Flex } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 
-const ServiceType = () => {
+const ServiceTypeCleverping = () => {
     return (
 <>
 
-<Image mt="-27.1px" src="/service-type-divider-top.svg" />
 <Box align="center" bgColor="#396AB3" p={{base:"10", md:"0 10 "}}>
   <Heading color="#fff" py="40px">Or search for internet providers by service type:</Heading>
     <SimpleGrid maxW="1272px" columns={{base:"1", md:"3"}} spacing={10}>
       
     <Flex p="5" bgColor="#fff" rounded="xl" shadow="md" align="center" direction="column" >
     <Box py="15px">
-    <Image src="/dsl.svg"/>
+    <Image src="/cleverping/dsl.svg"/>
 
     </Box>
       <Heading pb="15px" as="h3" fontSize="2xl" color="#000">DSL</Heading>
@@ -23,7 +22,7 @@ const ServiceType = () => {
 
     <Flex p="5" bgColor="#fff" rounded="xl" shadow="md" align="center" direction="column" >
     <Box py="15px">
-    <Image src="/satellite.svg"/>
+    <Image src="/cleverping/satellite.svg"/>
 
     </Box>
 
@@ -34,7 +33,7 @@ const ServiceType = () => {
 
     <Flex p="5" bgColor="#fff" rounded="xl" shadow="md" align="center" direction="column" >
     <Box py="15px">
-    <Image src="/cable.svg"/>
+    <Image src="/cleverping/cable.svg"/>
 
     </Box>
 
@@ -45,7 +44,7 @@ const ServiceType = () => {
 
     <Flex p="5" bgColor="#fff" rounded="xl" shadow="md" align="center" direction="column" >
     <Box py="15px">
-    <Image src="/fiberoptic.svg"/>
+    <Image src="/cleverping/fiberoptic.svg"/>
 
     </Box>
 
@@ -56,7 +55,7 @@ const ServiceType = () => {
 
     <Flex p="5" bgColor="#fff" rounded="xl" shadow="md" align="center" direction="column" >
     <Box py="15px">
-    <Image src="/fixed-wireless.svg"/>
+    <Image src="/cleverping/fixed-wireless.svg"/>
 
     </Box>
 
@@ -67,9 +66,8 @@ const ServiceType = () => {
   </SimpleGrid>
 
 </Box>
-<Image src="/servide-type-divider-bottom.svg" />
 
 </>
     )}
 
-export default ServiceType
+export default ServiceTypeCleverping;

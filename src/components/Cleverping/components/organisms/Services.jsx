@@ -5,7 +5,7 @@ import VideoService from '../atoms/VideoService'
 import PhoneService from '../atoms/PhoneService'
 import MobileService from '../atoms/MobileService'
 
-const Services = () => {
+const ServicesCleverping = () => {
     return (
         <>
         <Box w="100%" align="center">
@@ -20,4 +20,4 @@ const Services = () => {
         </>
     )}
 
-export default Services
+export default ServicesCleverping

@@ -2,10 +2,10 @@ import React from 'react'
 import { Flex, Box, Heading, Text, AspectRatio, Stack } from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 
-const BestProviders = () => {
+const BestProvidersCleverping = () => {
     return (
         <>
-        <Image src="/best-providers-divider.svg" />
+        <Image src="/cleverping/best-providers-divider.svg" />
 
         <Box pb="40px" align="center" bgGradient="linear(to-r, #EAF9FF, #F6F5FF)">
         <Heading align="center" py="24px">
@@ -18,7 +18,9 @@ const BestProviders = () => {
                     <Heading color="#396AB3" as="h3" pb="24px">
                     Explore the Best Services for You All in One Place.
                     </Heading>
-                    <Text>
+                    <Text
+                        fontSize="lg"
+                    >
                     With CleverPing®, you can view multiple services from a single menu of the US most trusted brands.<br/><br/>
                     Our home service partners offer discounted rates when you bundle services together. You can set up TV, Internet and Phone bundles all at once. Easily find plans that meets your needs, including Streaming, Mobile and Home Security products.<br/><br/>
                     As an example: with our tool you can find fiber optic, satellite, and traditional internet cable services available and choose the best options for your area.
@@ -27,11 +29,11 @@ const BestProviders = () => {
         </Box>
 
             <Flex mt="0 !important" w={["100%","100%","100%","100%","50%"]} justify="center">
-                    <Image src="/providers-image.png" alt="About Image Altice" />
+                    <Image src="/cleverping/providers-image.png" alt="About Image Altice" />
             </Flex>
                 </Stack>
                 </Box>
         </>
     )}
 
-export default BestProviders
+export default BestProvidersCleverping

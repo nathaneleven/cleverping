@@ -2,7 +2,7 @@ import React from 'react'
 import { Flex, Box, Heading, Text} from '@chakra-ui/layout'
 import { Image } from '@chakra-ui/image'
 
-const ByState = () => {
+const ByStateCleverping = () => {
     return (
         <>
 
@@ -17,11 +17,11 @@ const ByState = () => {
             </Box>
             {/*correção de breakpoints*/}
             <Flex justify="center">
-                <Image align="center" src="/usa-map.svg" alt="CleverPing Hero Image" />
+                <Image align="center" src="/cleverping/usa-map.svg" alt="CleverPing Hero Image" />
             </Flex>
         </Box>
         </>
     )
 }
 
-export default ByState
+export default ByStateCleverping
